@@ -1,0 +1,99 @@
+/*---------------------------------------------HEADER----------------------------------------------*/
+header{
+display: flex;
+align-items: baseline;
+background-color:#010632;
+width: 1440px;
+height: 65px;
+}
+.logo{
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 69px;
+width: 436px;
+height: 69px;
+color: #FFFFFF;
+cursor: pointer;
+margin-left: 46px;
+}
+.stand{
+color: #0075FF;
+}
+.Ukraine{
+color: #FFB800;
+}
+.aboutmoney{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+width: 169px;
+height: 29px;
+line-height: 35px;
+color: #FFFFFF;
+margin-left: 138px;
+white-space: nowrap;
+}
+.aboutmoney:hover{
+color: #FFB800;
+cursor: pointer;
+}
+.aboutus{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #FFFFFF;
+width: 88px;
+height: 29px;
+margin-left: 61px;
+}
+.aboutus:hover{
+color: #FFB800;
+cursor: pointer;
+}
+.wastemoney{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #FFFFFF;
+width: 166px;
+height: 29px;
+margin-left: 47px;
+margin-right: 289px;
+}
+.wastemoney:hover{
+    color: #FFB800;
+    cursor: pointer;
+}
+/*---------------------------------------------HERO------------------------------------------------------*/
+.heroimg{
+width: 1440px;
+height: 715px;
+}
+.herotxt{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 139px;
+text-align: center;
+width: 1091px;
+height: 278px;
+color: #0075FF;
+}
+.herotxtpart{
+color: #FFC700;
+}
+.herotxt{
+position: absolute;
+left: 174px;
+top: 180px;
+cursor: default;
+}
+/*--------------------------------------------ABOUT MONEY-------------------------------------------------/*
