@@ -96,4 +96,57 @@ left: 174px;
 top: 180px;
 cursor: default;
 }
-/*--------------------------------------------ABOUT MONEY-------------------------------------------------/*
+/*----------------------------------------------MONEY-------------------------------------------------*/
+.money{
+    width: 1440px;
+    height: 461px;
+    background-color: #010632;
+    margin-top: -3px;
+    display: grid;
+ 
+}
+.moneyh1{
+    position: absolute;
+width: 375px;
+height: 69px;
+left: 138px;
+top: 806px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    color: #FFFFFF;
+}
+.moneyp{
+    position: absolute;
+    width: 414px;
+    height: 233px;
+    left: 138px;
+    top: 885px;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+
+color: #FFFFFF;
+}
+.imgmoney1{
+    position: absolute;
+width: 365px;
+height: 251px;
+left: 637px;
+top: 808px;
+
+background: url(630_360_1648446360-268.jpg);
+}
+.imgmoney2{
+    position: absolute;
+width: 265px;
+height: 203px;
+left: 1037px;
+top: 969px;
+
+background: url(Знімок_екрана_з_2022-03-04_23-02-011.png);
+}
