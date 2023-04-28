@@ -98,19 +98,17 @@ cursor: default;
 }
 /*----------------------------------------------MONEY-------------------------------------------------*/
 .money{
+    position: absolute;
     width: 1440px;
     height: 461px;
     background-color: #010632;
     margin-top: -3px;
-    display: grid;
  
 }
 .moneyh1{
-    position: absolute;
 width: 375px;
 height: 69px;
-left: 138px;
-top: 806px;
+
     font-family: 'Istok Web';
     font-style: normal;
     font-weight: 700;
@@ -119,11 +117,8 @@ top: 806px;
     color: #FFFFFF;
 }
 .moneyp{
-    position: absolute;
     width: 414px;
     height: 233px;
-    left: 138px;
-    top: 885px;
     font-family: 'Jost';
 font-style: normal;
 font-weight: 400;
@@ -133,20 +128,85 @@ line-height: 35px;
 color: #FFFFFF;
 }
 .imgmoney1{
-    position: absolute;
 width: 365px;
 height: 251px;
-left: 637px;
-top: 808px;
+margin-right: 35px;
+margin-bottom: 59px;
 
 background: url(630_360_1648446360-268.jpg);
 }
 .imgmoney2{
-    position: absolute;
 width: 265px;
 height: 203px;
-left: 1037px;
-top: 969px;
+
 
 background: url(Знімок_екрана_з_2022-03-04_23-02-011.png);
+}
+.aboutmoneydiv{
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 138px;
+    margin-top: 32px;
+}
+.aboutmoneyimg{
+    display: flex;
+    display: inline-block;
+    justify-content: flex-end;
+    margin-left: 85px;
+}
+
+/*--------------------------------------------------ABOUT_US----------------------------------------------------*/
+.sectionaboutus{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+height: 461px;
+background: #060D49;
+margin-top: 458px;
+}
+.aboutusimg1{
+    aboutusimg1width: 365px;
+height: 251px;
+margin-top: 34px;
+margin-left: 138px;
+background: url(1638723318-947.jpg);
+}
+.aboutusimg2{
+width: 265px;
+height: 203px;
+margin-left:-10px;
+margin-top:190px;
+background: url(fczh73xs_r_big.jpg.d7d667a29a571a15fa75a8fa8557f6db.jpg);
+}
+.aboutush{
+width: 186px;
+height: 69px;
+margin-right: -249px;
+margin-top: 41px;
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 69px;
+color: #FFFFFF;
+}
+.aboutusp{
+width: 414px;
+height: 233px;
+margin-top: 120px;
+margin-right: 137px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #FFFFFF;
+}
+/*------------------------------------------------FUTURE---------------------------------------------*/
+
+.future{
+width: 1440px;
+height: 773px;
+background: #010632;
 }
